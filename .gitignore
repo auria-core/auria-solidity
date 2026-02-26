@@ -1,0 +1,20 @@
+# Build artifacts
+out/
+artifacts/
+cache/
+
+# Node modules
+node_modules/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
