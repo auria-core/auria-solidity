@@ -1,4 +1,13 @@
 // SPDX-License-Identifier: MIT
+// File: ShardRegistry.sol - This file is part of AURIA
+// Copyright (c) 2026 AURIA Developers and Contributors
+// Description:
+//     Manages shard and expert registration on the blockchain.
+//     Shards represent partitioned model weights or expertise units,
+//     while Experts are composed of multiple shards. Tracks ownership,
+//     content hashing, and contributor management for distributed
+//     model execution across the AURIA network.
+//
 pragma solidity ^0.8.20;
 
 contract ShardRegistry {

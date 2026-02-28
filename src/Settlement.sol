@@ -1,4 +1,12 @@
 // SPDX-License-Identifier: MIT
+// File: Settlement.sol - This file is part of AURIA
+// Copyright (c) 2026 AURIA Developers and Contributors
+// Description:
+//     Handles settlement and payment for inference usage across the network.
+//     Tracks usage events and receipts from nodes, maintains a merkle root
+//     of all usage for the settlement period, and calculates node rewards
+//     based on their contributions to the AURIA decentralized LLM.
+//
 pragma solidity ^0.8.20;
 
 contract Settlement {

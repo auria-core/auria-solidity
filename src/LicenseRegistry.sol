@@ -1,4 +1,12 @@
 // SPDX-License-Identifier: MIT
+// File: LicenseRegistry.sol - This file is part of AURIA
+// Copyright (c) 2026 AURIA Developers and Contributors
+// Description:
+//     Manages licensing of shards and expert models on the blockchain.
+//     Issues, tracks, and revokes licenses for node operators to serve
+//     specific shards or experts. Maintains a registry of trusted issuers
+//     who can grant and revoke licenses for model access.
+//
 pragma solidity ^0.8.20;
 
 contract LicenseRegistry {
